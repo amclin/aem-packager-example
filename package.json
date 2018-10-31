@@ -1,0 +1,27 @@
+{
+  "name": "npm-packager-example",
+  "version": "0.0.0",
+  "description": "Example of a project using aem-packager and aem-clientlib-generator to build an AEM content package",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "standard",
+    "build": "clientlib --verbose",
+    "package": "aem-packager"
+  },
+  "author": "Anthony McLin",
+  "license": "MIT",
+  "devDependencies": {
+    "aem-clientlib-generator": "^1.4.1",
+    "aem-packager": "^0.2.1",
+    "standard": "^12.0.1"
+  },
+  "aem-packager": {
+    "options": {
+      "srcDir": "dist/clientlibs/example"
+    },
+    "defines": {
+      "groupId": "com.github.amclin"
+    }
+  }
+}
