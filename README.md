@@ -1,4 +1,7 @@
 # aem-packager-example
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/amclin/aem-packager-example.svg)](https://greenkeeper.io/)
+
 This is a simple example NodeJS project using [aem-packager](https://www.npmjs.com/package/aem-packager) and [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) to build deployable content packages that can be installed into Adobe Experience Manager via the AEM Package Manager.
 
 ![Installed AEM Package](docs/installed-package.png)
