@@ -7,11 +7,17 @@
   "scripts": {
     "test": "standard",
     "build": "clientlib --verbose",
-    "package": "aem-packager"
+    "package": "aem-packager",
+    "semantic-release": "semantic-release"
   },
   "author": "Anthony McLin",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/exec": "^3.3.5",
+    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/github": "^5.4.2",
+    "@semantic-release/npm": "^5.1.13",
     "aem-clientlib-generator": "^1.4.1",
     "aem-packager": "^1.0.0",
     "standard": "^12.0.1"

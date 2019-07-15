@@ -1,8 +1,11 @@
 language: node_js
 node_js:
  - lts/*
- - 8
- - 10
+ - "stable"
+script:
+ - npm test
+ - npm run build
+ - npm run package
 jobs:
   include:
     # Define the release stage that runs semantic-release
@@ -11,9 +14,8 @@ jobs:
       # Advanced: optionally overwrite your default `script` step to skip the tests
       # It may not needed if `npm run build` and `npm test` run in preversion step
       # script: skip
-      
-      #deploy:
-      #  provider: script
-      #  skip_cleanup: true
-      #  script:
-      #    - npx semantic-release
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
