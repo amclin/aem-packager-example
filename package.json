@@ -20,7 +20,7 @@
     "@semantic-release/npm": "^5.1.13",
     "aem-clientlib-generator": "^1.4.1",
     "aem-packager": "^1.0.0",
-    "standard": "^13.0.2"
+    "standard": "^13.1.0"
   },
   "aem-packager": {
     "options": {
