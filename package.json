@@ -7,8 +7,9 @@
   "scripts": {
     "test": "standard",
     "build": "clientlib --verbose",
+    "postbuild": "npm run package",
     "package": "aem-packager",
-    "semantic-release": "semantic-release"
+    "release": "npx semantic-release"
   },
   "author": "Anthony McLin",
   "license": "MIT",
