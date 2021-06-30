@@ -6,10 +6,6 @@ updates:
     interval: daily
     time: "13:00"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: aem-packager
-    versions:
-    - 2.0.5
   commit-message:
     prefix: fix
     prefix-development: refactor
