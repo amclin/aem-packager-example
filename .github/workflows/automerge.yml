@@ -9,5 +9,5 @@ jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - name: Automerge Dev Dependency Updates
+      - name: Automerge Dependabot Updates
         uses: amclin/dependabot-automerge@v0.1.0
