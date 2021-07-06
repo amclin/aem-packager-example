@@ -27,6 +27,3 @@ If you don't already have Maven installed on your system, you will need to get i
 
 ## More Information
 For more details on how to setup a NodeJS project so it can be compiled and installed into AEM, see [aem-packager](https://github.com/amclin/aem-packager)
-
-
-<!-- sample change -->
