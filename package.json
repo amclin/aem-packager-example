@@ -17,7 +17,7 @@
     "@semantic-release/exec": "^6.0.1",
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/github": "^8.0.1",
-    "@semantic-release/npm": "^8.0.0",
+    "@semantic-release/npm": "^8.0.1",
     "aem-clientlib-generator": "^1.7.7",
     "aem-packager": "^2.0.16",
     "standard": "^16.0.4"
