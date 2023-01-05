@@ -1,6 +1,6 @@
 {
   "name": "npm-packager-example",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "Example of a project using aem-packager and aem-clientlib-generator to build an AEM content package",
   "main": "index.js",
   "private": true,
